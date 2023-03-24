@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://student.cloud.htl-leonding.ac.at/g.tikautz/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "paper"
