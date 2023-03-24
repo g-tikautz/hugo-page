@@ -18,17 +18,18 @@ spec:
                 name: nginx
                 port:
                   number: 80
-          - path: /g.tikautz/homepage/(.*)$
+          - path: /g.tikautz/(.*)$
             pathType: Prefix
             backend:
               service:
                 name: nginx
                 port:
                   number: 80
-          - path: /g.tikautz/api/user
+          - path: /g.tikautz/api/(.*)$
             pathType: Prefix
             backend:
               service:
                 name: appsrv
                 port:
                   number: 8080
+                  
